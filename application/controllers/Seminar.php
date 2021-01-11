@@ -10,6 +10,13 @@ class Seminar extends CI_Controller {
 		$this->load->view('template/footer');
 	}
 
+	public function admin(){
+		$meta['title'] = 'Halaman Seminar Sista';
+		$this->load->view('template/header', $meta);
+		$this->load->view('seminar/seminarAdmin');
+		$this->load->view('template/footer');
+	}
+
 }
 
 /* End of file Seminar.php */

@@ -45,6 +45,12 @@
               </a>
             </li>
             <li class="nav-item">
+              <a href="<?= base_url("seminar/admin") ?>" class="nav-link">
+                <i class="far fa-circle nav-icon"></i>
+                <p>Data Semina Admin</p>
+              </a>
+            </li>
+            <li class="nav-item">
               <a href="<?= base_url("seminar") ?>" class="nav-link">
                 <i class="far fa-circle nav-icon"></i>
                 <p>Buat Seminar Baru</p>
